@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BooseApp</name>
+    </assembly>
+    <members>
+        <member name="M:BooseApp.BooseCanvas.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Boose construtor
+            </summary>
+            <param name="xsize"></param>
+            <param name="ysize"></param>
+        </member>
+        <member name="P:BooseApp.BooseCanvas.Xpos">
+            <summary>
+            Gets or sets the X-coordinate position.
+            </summary>
+        </member>
+        <member name="P:BooseApp.BooseCanvas.Ypos">
+            <summary>
+            Gets or sets the Y-coordinate position.
+            </summary>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.Circle(System.Int32,System.Boolean)">
+            <summary>
+            method to draw a circle on the canvas
+            </summary>
+            <param name="radius"></param>
+            <param name="filled"></param>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.Clear">
+            <summary>
+            method to clear the canvas
+            </summary>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.DrawTo(System.Int32,System.Int32)">
+            <summary>
+            method to draw a line from the current position to the specified position
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.getBitmap">
+            <summary>
+            Retrieves the current bitmap from the canvas.
+            </summary>
+            <returns>An object representing the current bitmap on the canvas.</returns>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.MoveTo(System.Int32,System.Int32)">
+            <summary>
+            Moves the pen object to the specified coordinates.
+            </summary>
+            <param name="x">The new x-coordinate of the pen.</param>
+            <param name="y">The new y-coordinate of the pen</param>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.Rect(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            method to draw a rectangle on the canvas
+            </summary>
+            <param name="width"></param>
+            <param name="height"></param>
+            <param name="filled"></param>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.Reset">
+            <summary>
+            resets the pen position to (0,0)
+            </summary>
+        </member>
+        <member name="M:BooseApp.BooseCanvas.SetColour(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            set the pen colour
+            </summary>
+            <param name="red"></param>
+            <param name="green"></param>
+            <param name="blue"></param>
+        </member>
+        <member name="F:BooseApp.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BooseApp.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BooseApp.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BooseApp.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:BooseApp.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:BooseApp.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
